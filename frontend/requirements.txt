@@ -1,5 +1,4 @@
 # --- Backend ---
-openai              # or groq / google-generativeai depending on LLM
 python-dotenv       # for managing API keys securely
 pydantic
 
@@ -15,9 +14,7 @@ dateparser     # for natural language date/time parsing (optional)
 
 
 
-langchain-groq
 loguru
-os
 
 
 # --- Dev Tools ---
