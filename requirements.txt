@@ -23,6 +23,7 @@ google-auth-oauthlib
 langchain==0.3.26
 langchain-groq
 google-auth-httplib2
+loguru
 
 
 # --- Dev Tools ---

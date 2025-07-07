@@ -27,4 +27,5 @@ google-auth-httplib2
 
 # --- Dev Tools ---
 httpx
+loguru
 
