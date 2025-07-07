@@ -1463,3 +1463,606 @@ INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "H
   🕐 14:00 - Meeting with John Doe
   🕐 14:00 - Meeting with John Doe
 
+2025-07-07 17:57:56.115 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 17:57:56.115 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 17:57:56.115 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 17:57:56.117 | INFO     | main:chat_with_bot:70 - 📥 Received input: make an appointment for tomorrow
+2025-07-07 17:57:56.117 | INFO     | main:chat_with_bot:70 - 📥 Received input: make an appointment for tomorrow
+2025-07-07 17:57:56.117 | INFO     | main:chat_with_bot:70 - 📥 Received input: make an appointment for tomorrow
+2025-07-07 17:57:56.119 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 17:57:56.119 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 17:57:56.119 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 17:57:56.121 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 17:57:56.121 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 17:57:56.121 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 17:57:56.123 | INFO     | simple_agent:process_message:266 - 🔄 Processing: make an appointment for tomorrow
+2025-07-07 17:57:56.123 | INFO     | simple_agent:process_message:266 - 🔄 Processing: make an appointment for tomorrow
+2025-07-07 17:57:56.123 | INFO     | simple_agent:process_message:266 - 🔄 Processing: make an appointment for tomorrow
+2025-07-07 17:57:56.161 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:57:56.161 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:57:56.161 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:57:56.314 | ERROR    | tools:get_upcoming_events:499 - ❌ Error getting events: EOF occurred in violation of protocol (_ssl.c:2393)
+2025-07-07 17:57:56.314 | ERROR    | tools:get_upcoming_events:499 - ❌ Error getting events: EOF occurred in violation of protocol (_ssl.c:2393)
+2025-07-07 17:57:56.314 | ERROR    | tools:get_upcoming_events:499 - ❌ Error getting events: EOF occurred in violation of protocol (_ssl.c:2393)
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 17:57:58.335 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'book_meeting', 'confidence': 0.9, 'extracted_info': {'name': None, 'date': '2025-07-08', 'time': None, 'duration': None, 'event_reference': None, 'modification_type': None}, 'context_clues': {'is_followup': False, 'references_previous': False, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'questioning', 'missing_information': ['name', 'time'], 'user_emotion': 'neutral'}
+2025-07-07 17:57:58.335 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'book_meeting', 'confidence': 0.9, 'extracted_info': {'name': None, 'date': '2025-07-08', 'time': None, 'duration': None, 'event_reference': None, 'modification_type': None}, 'context_clues': {'is_followup': False, 'references_previous': False, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'questioning', 'missing_information': ['name', 'time'], 'user_emotion': 'neutral'}
+2025-07-07 17:57:58.335 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'book_meeting', 'confidence': 0.9, 'extracted_info': {'name': None, 'date': '2025-07-08', 'time': None, 'duration': None, 'event_reference': None, 'modification_type': None}, 'context_clues': {'is_followup': False, 'references_previous': False, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'questioning', 'missing_information': ['name', 'time'], 'user_emotion': 'neutral'}
+2025-07-07 17:57:58.337 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: booking
+2025-07-07 17:57:58.337 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: booking
+2025-07-07 17:57:58.337 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: booking
+2025-07-07 17:57:58.339 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {'date': '2025-07-08'}
+2025-07-07 17:57:58.339 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {'date': '2025-07-08'}
+2025-07-07 17:57:58.339 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {'date': '2025-07-08'}
+2025-07-07 17:57:58.341 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: Perfect! Who are you meeting with on 2025-07-08, and what time works best?
+2025-07-07 17:57:58.341 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: Perfect! Who are you meeting with on 2025-07-08, and what time works best?
+2025-07-07 17:57:58.341 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: Perfect! Who are you meeting with on 2025-07-08, and what time works best?
+2025-07-07 17:58:22.655 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 17:58:22.655 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 17:58:22.655 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 17:58:22.676 | INFO     | main:chat_with_bot:70 - 📥 Received input: alison , tomorrow at 10 pm for 1 hour
+2025-07-07 17:58:22.676 | INFO     | main:chat_with_bot:70 - 📥 Received input: alison , tomorrow at 10 pm for 1 hour
+2025-07-07 17:58:22.676 | INFO     | main:chat_with_bot:70 - 📥 Received input: alison , tomorrow at 10 pm for 1 hour
+2025-07-07 17:58:22.678 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 17:58:22.678 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 17:58:22.678 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 17:58:22.679 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 17:58:22.679 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 17:58:22.679 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 17:58:22.681 | INFO     | simple_agent:process_message:266 - 🔄 Processing: alison , tomorrow at 10 pm for 1 hour
+2025-07-07 17:58:22.681 | INFO     | simple_agent:process_message:266 - 🔄 Processing: alison , tomorrow at 10 pm for 1 hour
+2025-07-07 17:58:22.681 | INFO     | simple_agent:process_message:266 - 🔄 Processing: alison , tomorrow at 10 pm for 1 hour
+2025-07-07 17:58:22.682 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:58:22.682 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:58:22.682 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:58:23.961 | INFO     | tools:get_upcoming_events:492 - ✅ Found 6 upcoming events
+2025-07-07 17:58:23.961 | INFO     | tools:get_upcoming_events:492 - ✅ Found 6 upcoming events
+2025-07-07 17:58:23.961 | INFO     | tools:get_upcoming_events:492 - ✅ Found 6 upcoming events
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 17:58:25.696 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'book_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Alison', 'date': '2025-07-08', 'time': '22:00', 'duration': 60, 'event_reference': None, 'modification_type': None}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 17:58:25.696 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'book_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Alison', 'date': '2025-07-08', 'time': '22:00', 'duration': 60, 'event_reference': None, 'modification_type': None}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 17:58:25.696 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'book_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Alison', 'date': '2025-07-08', 'time': '22:00', 'duration': 60, 'event_reference': None, 'modification_type': None}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 17:58:25.698 | INFO     | tools:check_calendar_availability:52 - 🔍 Checking availability for 2025-07-08 at 22:00 for 60 minutes
+2025-07-07 17:58:25.698 | INFO     | tools:check_calendar_availability:52 - 🔍 Checking availability for 2025-07-08 at 22:00 for 60 minutes
+2025-07-07 17:58:25.698 | INFO     | tools:check_calendar_availability:52 - 🔍 Checking availability for 2025-07-08 at 22:00 for 60 minutes
+2025-07-07 17:58:26.325 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: booking
+2025-07-07 17:58:26.325 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: booking
+2025-07-07 17:58:26.325 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: booking
+2025-07-07 17:58:26.327 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {'date': '2025-07-08', 'name': 'Alison', 'time': '22:00', 'duration': 60}
+2025-07-07 17:58:26.327 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {'date': '2025-07-08', 'name': 'Alison', 'time': '22:00', 'duration': 60}
+2025-07-07 17:58:26.327 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {'date': '2025-07-08', 'name': 'Alison', 'time': '22:00', 'duration': 60}
+2025-07-07 17:58:26.328 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: Perfect! I can book your meeting with Alison on 2025-07-08 at 22:00. Shall I go ahead and book it?
+2025-07-07 17:58:26.328 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: Perfect! I can book your meeting with Alison on 2025-07-08 at 22:00. Shall I go ahead and book it?
+2025-07-07 17:58:26.328 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: Perfect! I can book your meeting with Alison on 2025-07-08 at 22:00. Shall I go ahead and book it?
+2025-07-07 17:58:35.099 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 17:58:35.099 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 17:58:35.099 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 17:58:35.099 | INFO     | main:chat_with_bot:70 - 📥 Received input: yes
+2025-07-07 17:58:35.099 | INFO     | main:chat_with_bot:70 - 📥 Received input: yes
+2025-07-07 17:58:35.099 | INFO     | main:chat_with_bot:70 - 📥 Received input: yes
+2025-07-07 17:58:35.099 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 17:58:35.099 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 17:58:35.099 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 17:58:35.099 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 17:58:35.099 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 17:58:35.099 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 17:58:35.099 | INFO     | simple_agent:process_message:266 - 🔄 Processing: yes
+2025-07-07 17:58:35.099 | INFO     | simple_agent:process_message:266 - 🔄 Processing: yes
+2025-07-07 17:58:35.099 | INFO     | simple_agent:process_message:266 - 🔄 Processing: yes
+2025-07-07 17:58:35.099 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:58:35.099 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:58:35.099 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:58:35.774 | INFO     | tools:get_upcoming_events:492 - ✅ Found 6 upcoming events
+2025-07-07 17:58:35.774 | INFO     | tools:get_upcoming_events:492 - ✅ Found 6 upcoming events
+2025-07-07 17:58:35.774 | INFO     | tools:get_upcoming_events:492 - ✅ Found 6 upcoming events
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 17:58:37.210 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'confirm_action', 'confidence': 0.9, 'extracted_info': {'name': None, 'date': None, 'time': None, 'duration': None, 'event_reference': 'the meeting', 'modification_type': None}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 17:58:37.210 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'confirm_action', 'confidence': 0.9, 'extracted_info': {'name': None, 'date': None, 'time': None, 'duration': None, 'event_reference': 'the meeting', 'modification_type': None}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 17:58:37.210 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'confirm_action', 'confidence': 0.9, 'extracted_info': {'name': None, 'date': None, 'time': None, 'duration': None, 'event_reference': 'the meeting', 'modification_type': None}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 17:58:37.213 | INFO     | tools:book_appointment:159 - 📨 Booking meeting: Alison on 2025-07-08 at 22:00 for 60 mins
+2025-07-07 17:58:37.213 | INFO     | tools:book_appointment:159 - 📨 Booking meeting: Alison on 2025-07-08 at 22:00 for 60 mins
+2025-07-07 17:58:37.213 | INFO     | tools:book_appointment:159 - 📨 Booking meeting: Alison on 2025-07-08 at 22:00 for 60 mins
+2025-07-07 17:58:38.007 | INFO     | tools:book_appointment:199 - ✅ Event created: t5pe4cjrvpetsncpci1aqlmfag
+2025-07-07 17:58:38.007 | INFO     | tools:book_appointment:199 - ✅ Event created: t5pe4cjrvpetsncpci1aqlmfag
+2025-07-07 17:58:38.007 | INFO     | tools:book_appointment:199 - ✅ Event created: t5pe4cjrvpetsncpci1aqlmfag
+2025-07-07 17:58:38.009 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: idle
+2025-07-07 17:58:38.009 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: idle
+2025-07-07 17:58:38.009 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: idle
+2025-07-07 17:58:38.011 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 17:58:38.011 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 17:58:38.011 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 17:58:38.013 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: ✅ Excellent! I've booked your meeting with Alison on 2025-07-08 at 22:00. You'll receive a calendar invitation shortly!
+2025-07-07 17:58:38.013 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: ✅ Excellent! I've booked your meeting with Alison on 2025-07-08 at 22:00. You'll receive a calendar invitation shortly!
+2025-07-07 17:58:38.013 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: ✅ Excellent! I've booked your meeting with Alison on 2025-07-08 at 22:00. You'll receive a calendar invitation shortly!
+2025-07-07 17:59:05.248 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 17:59:05.248 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 17:59:05.248 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 17:59:05.251 | INFO     | main:chat_with_bot:70 - 📥 Received input: shift alison's appointment to this friday
+2025-07-07 17:59:05.251 | INFO     | main:chat_with_bot:70 - 📥 Received input: shift alison's appointment to this friday
+2025-07-07 17:59:05.251 | INFO     | main:chat_with_bot:70 - 📥 Received input: shift alison's appointment to this friday
+2025-07-07 17:59:05.252 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 17:59:05.252 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 17:59:05.252 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 17:59:05.254 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 17:59:05.254 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 17:59:05.254 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 17:59:05.256 | INFO     | simple_agent:process_message:266 - 🔄 Processing: shift alison's appointment to this friday
+2025-07-07 17:59:05.256 | INFO     | simple_agent:process_message:266 - 🔄 Processing: shift alison's appointment to this friday
+2025-07-07 17:59:05.256 | INFO     | simple_agent:process_message:266 - 🔄 Processing: shift alison's appointment to this friday
+2025-07-07 17:59:05.258 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:59:05.258 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:59:05.258 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:59:05.847 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 17:59:05.847 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 17:59:05.847 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 17:59:07.684 | ERROR    | simple_agent:understand_intent:187 - ❌ Intent analysis failed: Expecting property name enclosed in double quotes: line 6 column 32 (char 146)
+2025-07-07 17:59:07.684 | ERROR    | simple_agent:understand_intent:187 - ❌ Intent analysis failed: Expecting property name enclosed in double quotes: line 6 column 32 (char 146)
+2025-07-07 17:59:07.684 | ERROR    | simple_agent:understand_intent:187 - ❌ Intent analysis failed: Expecting property name enclosed in double quotes: line 6 column 32 (char 146)
+2025-07-07 17:59:07.686 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: booking
+2025-07-07 17:59:07.686 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: booking
+2025-07-07 17:59:07.686 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: booking
+2025-07-07 17:59:07.688 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 17:59:07.688 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 17:59:07.688 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 17:59:07.690 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: I'd love to help you schedule a meeting! Could you tell me who you'd like to meet with and when?
+2025-07-07 17:59:07.690 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: I'd love to help you schedule a meeting! Could you tell me who you'd like to meet with and when?
+2025-07-07 17:59:07.690 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: I'd love to help you schedule a meeting! Could you tell me who you'd like to meet with and when?
+2025-07-07 17:59:39.108 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 17:59:39.108 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 17:59:39.108 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 17:59:39.114 | INFO     | main:chat_with_bot:70 - 📥 Received input: move alison's appointment by one day
+2025-07-07 17:59:39.114 | INFO     | main:chat_with_bot:70 - 📥 Received input: move alison's appointment by one day
+2025-07-07 17:59:39.114 | INFO     | main:chat_with_bot:70 - 📥 Received input: move alison's appointment by one day
+2025-07-07 17:59:39.118 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 17:59:39.118 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 17:59:39.118 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 17:59:39.134 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 17:59:39.134 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 17:59:39.134 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 17:59:39.157 | INFO     | simple_agent:process_message:266 - 🔄 Processing: move alison's appointment by one day
+2025-07-07 17:59:39.157 | INFO     | simple_agent:process_message:266 - 🔄 Processing: move alison's appointment by one day
+2025-07-07 17:59:39.157 | INFO     | simple_agent:process_message:266 - 🔄 Processing: move alison's appointment by one day
+2025-07-07 17:59:39.195 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:59:39.195 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:59:39.195 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:59:39.929 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 17:59:39.929 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 17:59:39.929 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 17:59:41.615 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'modify_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Alison', 'date': None, 'time': None, 'duration': None, 'event_reference': '2025-07-08 22:00: Meeting with Alison', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 17:59:41.615 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'modify_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Alison', 'date': None, 'time': None, 'duration': None, 'event_reference': '2025-07-08 22:00: Meeting with Alison', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 17:59:41.615 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'modify_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Alison', 'date': None, 'time': None, 'duration': None, 'event_reference': '2025-07-08 22:00: Meeting with Alison', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 17:59:41.617 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:59:41.617 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:59:41.617 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:59:42.209 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 17:59:42.209 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 17:59:42.209 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 17:59:42.211 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: modifying
+2025-07-07 17:59:42.211 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: modifying
+2025-07-07 17:59:42.211 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: modifying
+2025-07-07 17:59:42.213 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 17:59:42.213 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 17:59:42.213 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 17:59:42.215 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You want to modify **Meeting with Alison** on 2025-07-08 22:00. What changes would you like to make?
+2025-07-07 17:59:42.215 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You want to modify **Meeting with Alison** on 2025-07-08 22:00. What changes would you like to make?
+2025-07-07 17:59:42.215 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You want to modify **Meeting with Alison** on 2025-07-08 22:00. What changes would you like to make?
+2025-07-07 18:00:09.781 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 18:00:09.781 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 18:00:09.781 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 18:00:09.784 | INFO     | main:chat_with_bot:70 - 📥 Received input: shift the meeting by two days
+2025-07-07 18:00:09.784 | INFO     | main:chat_with_bot:70 - 📥 Received input: shift the meeting by two days
+2025-07-07 18:00:09.784 | INFO     | main:chat_with_bot:70 - 📥 Received input: shift the meeting by two days
+2025-07-07 18:00:09.787 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 18:00:09.787 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 18:00:09.787 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 18:00:09.789 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 18:00:09.789 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 18:00:09.789 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 18:00:09.791 | INFO     | simple_agent:process_message:266 - 🔄 Processing: shift the meeting by two days
+2025-07-07 18:00:09.791 | INFO     | simple_agent:process_message:266 - 🔄 Processing: shift the meeting by two days
+2025-07-07 18:00:09.791 | INFO     | simple_agent:process_message:266 - 🔄 Processing: shift the meeting by two days
+2025-07-07 18:00:09.793 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:00:09.793 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:00:09.793 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:00:10.489 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:00:10.489 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:00:10.489 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 18:00:12.428 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'modify_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Alison', 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Alison', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 18:00:12.428 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'modify_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Alison', 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Alison', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 18:00:12.428 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'modify_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Alison', 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Alison', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 18:00:12.431 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:00:12.431 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:00:12.431 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:00:13.056 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:00:13.056 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:00:13.056 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:00:13.071 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: modifying
+2025-07-07 18:00:13.071 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: modifying
+2025-07-07 18:00:13.071 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: modifying
+2025-07-07 18:00:13.073 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 18:00:13.073 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 18:00:13.073 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 18:00:13.075 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You want to modify **Meeting with Alison** on 2025-07-08 22:00. What changes would you like to make?
+2025-07-07 18:00:13.075 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You want to modify **Meeting with Alison** on 2025-07-08 22:00. What changes would you like to make?
+2025-07-07 18:00:13.075 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You want to modify **Meeting with Alison** on 2025-07-08 22:00. What changes would you like to make?
+2025-07-07 18:00:39.198 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 18:00:39.198 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 18:00:39.198 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 18:00:39.201 | INFO     | main:chat_with_bot:70 - 📥 Received input: shif the meeting by 2 days
+2025-07-07 18:00:39.201 | INFO     | main:chat_with_bot:70 - 📥 Received input: shif the meeting by 2 days
+2025-07-07 18:00:39.201 | INFO     | main:chat_with_bot:70 - 📥 Received input: shif the meeting by 2 days
+2025-07-07 18:00:39.204 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 18:00:39.204 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 18:00:39.204 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 18:00:39.206 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 18:00:39.206 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 18:00:39.206 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 18:00:39.210 | INFO     | simple_agent:process_message:266 - 🔄 Processing: shif the meeting by 2 days
+2025-07-07 18:00:39.210 | INFO     | simple_agent:process_message:266 - 🔄 Processing: shif the meeting by 2 days
+2025-07-07 18:00:39.210 | INFO     | simple_agent:process_message:266 - 🔄 Processing: shif the meeting by 2 days
+2025-07-07 18:00:39.212 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:00:39.212 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:00:39.212 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:00:39.927 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:00:39.927 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:00:39.927 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 18:00:41.953 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'modify_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Alison', 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Alison', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 18:00:41.953 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'modify_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Alison', 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Alison', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 18:00:41.953 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'modify_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Alison', 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Alison', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 18:00:42.070 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:00:42.070 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:00:42.070 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:00:42.798 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:00:42.798 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:00:42.798 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:00:42.803 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: modifying
+2025-07-07 18:00:42.803 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: modifying
+2025-07-07 18:00:42.803 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: modifying
+2025-07-07 18:00:42.805 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 18:00:42.805 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 18:00:42.805 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 18:00:42.808 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You want to modify **Meeting with Alison** on 2025-07-08 22:00. What changes would you like to make?
+2025-07-07 18:00:42.808 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You want to modify **Meeting with Alison** on 2025-07-08 22:00. What changes would you like to make?
+2025-07-07 18:00:42.808 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You want to modify **Meeting with Alison** on 2025-07-08 22:00. What changes would you like to make?
+2025-07-07 18:01:01.915 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 18:01:01.915 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 18:01:01.915 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 18:01:01.917 | INFO     | main:chat_with_bot:70 - 📥 Received input: move the meeting to next 2 days
+2025-07-07 18:01:01.917 | INFO     | main:chat_with_bot:70 - 📥 Received input: move the meeting to next 2 days
+2025-07-07 18:01:01.917 | INFO     | main:chat_with_bot:70 - 📥 Received input: move the meeting to next 2 days
+2025-07-07 18:01:01.919 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 18:01:01.919 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 18:01:01.919 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 18:01:01.922 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 18:01:01.922 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 18:01:01.922 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 18:01:01.924 | INFO     | simple_agent:process_message:266 - 🔄 Processing: move the meeting to next 2 days
+2025-07-07 18:01:01.924 | INFO     | simple_agent:process_message:266 - 🔄 Processing: move the meeting to next 2 days
+2025-07-07 18:01:01.924 | INFO     | simple_agent:process_message:266 - 🔄 Processing: move the meeting to next 2 days
+2025-07-07 18:01:01.925 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:01:01.925 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:01:01.925 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:01:02.647 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:01:02.647 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:01:02.647 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 18:01:04.485 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'modify_meeting', 'confidence': 0.9, 'extracted_info': {'name': None, 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Alison', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 18:01:04.485 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'modify_meeting', 'confidence': 0.9, 'extracted_info': {'name': None, 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Alison', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 18:01:04.485 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'modify_meeting', 'confidence': 0.9, 'extracted_info': {'name': None, 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Alison', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 18:01:04.487 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:01:04.487 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:01:04.487 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:01:05.097 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:01:05.097 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:01:05.097 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:01:05.099 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: modifying
+2025-07-07 18:01:05.099 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: modifying
+2025-07-07 18:01:05.099 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: modifying
+2025-07-07 18:01:05.102 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 18:01:05.102 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 18:01:05.102 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 18:01:05.104 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You want to modify **Meeting with Alison** on 2025-07-08 22:00. What changes would you like to make?
+2025-07-07 18:01:05.104 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You want to modify **Meeting with Alison** on 2025-07-08 22:00. What changes would you like to make?
+2025-07-07 18:01:05.104 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You want to modify **Meeting with Alison** on 2025-07-08 22:00. What changes would you like to make?
+2025-07-07 18:01:16.511 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 18:01:16.511 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 18:01:16.511 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 18:01:16.512 | INFO     | main:chat_with_bot:70 - 📥 Received input: move it to 12 july
+2025-07-07 18:01:16.512 | INFO     | main:chat_with_bot:70 - 📥 Received input: move it to 12 july
+2025-07-07 18:01:16.512 | INFO     | main:chat_with_bot:70 - 📥 Received input: move it to 12 july
+2025-07-07 18:01:16.514 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 18:01:16.514 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 18:01:16.514 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 18:01:16.515 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 18:01:16.515 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 18:01:16.515 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 18:01:16.517 | INFO     | simple_agent:process_message:266 - 🔄 Processing: move it to 12 july
+2025-07-07 18:01:16.517 | INFO     | simple_agent:process_message:266 - 🔄 Processing: move it to 12 july
+2025-07-07 18:01:16.517 | INFO     | simple_agent:process_message:266 - 🔄 Processing: move it to 12 july
+2025-07-07 18:01:16.519 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:01:16.519 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:01:16.519 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:01:17.199 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:01:17.199 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:01:17.199 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 18:01:19.247 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'modify_meeting', 'confidence': 0.9, 'extracted_info': {'name': None, 'date': '2025-07-12', 'time': None, 'duration': None, 'event_reference': 'Meeting with Alison', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'medium', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': ['time'], 'user_emotion': 'neutral'}
+2025-07-07 18:01:19.247 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'modify_meeting', 'confidence': 0.9, 'extracted_info': {'name': None, 'date': '2025-07-12', 'time': None, 'duration': None, 'event_reference': 'Meeting with Alison', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'medium', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': ['time'], 'user_emotion': 'neutral'}
+2025-07-07 18:01:19.247 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'modify_meeting', 'confidence': 0.9, 'extracted_info': {'name': None, 'date': '2025-07-12', 'time': None, 'duration': None, 'event_reference': 'Meeting with Alison', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'medium', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': ['time'], 'user_emotion': 'neutral'}
+2025-07-07 18:01:19.249 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:01:19.249 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:01:19.249 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:01:19.861 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:01:19.861 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:01:19.861 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:01:19.864 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: modifying
+2025-07-07 18:01:19.864 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: modifying
+2025-07-07 18:01:19.864 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: modifying
+2025-07-07 18:01:19.866 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {'date': '2025-07-12'}
+2025-07-07 18:01:19.866 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {'date': '2025-07-12'}
+2025-07-07 18:01:19.866 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {'date': '2025-07-12'}
+2025-07-07 18:01:19.868 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You're asking to modify **Meeting with Alison** on 2025-07-08 22:00. Do you want to reschedule it to 2025-07-12 ?
+2025-07-07 18:01:19.868 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You're asking to modify **Meeting with Alison** on 2025-07-08 22:00. Do you want to reschedule it to 2025-07-12 ?
+2025-07-07 18:01:19.868 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You're asking to modify **Meeting with Alison** on 2025-07-08 22:00. Do you want to reschedule it to 2025-07-12 ?
+2025-07-07 18:01:30.075 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 18:01:30.075 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 18:01:30.075 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 18:01:30.077 | INFO     | main:chat_with_bot:70 - 📥 Received input: yes
+2025-07-07 18:01:30.077 | INFO     | main:chat_with_bot:70 - 📥 Received input: yes
+2025-07-07 18:01:30.077 | INFO     | main:chat_with_bot:70 - 📥 Received input: yes
+2025-07-07 18:01:30.079 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 18:01:30.079 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 18:01:30.079 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 18:01:30.082 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 18:01:30.082 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 18:01:30.082 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 18:01:30.087 | INFO     | simple_agent:process_message:266 - 🔄 Processing: yes
+2025-07-07 18:01:30.087 | INFO     | simple_agent:process_message:266 - 🔄 Processing: yes
+2025-07-07 18:01:30.087 | INFO     | simple_agent:process_message:266 - 🔄 Processing: yes
+2025-07-07 18:01:30.089 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:01:30.089 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:01:30.089 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:01:30.826 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:01:30.826 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:01:30.826 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 18:01:32.109 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'confirm_action', 'confidence': 0.9, 'extracted_info': {'name': None, 'date': '2025-07-12', 'time': None, 'duration': None, 'event_reference': 'Meeting with Alison', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 18:01:32.109 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'confirm_action', 'confidence': 0.9, 'extracted_info': {'name': None, 'date': '2025-07-12', 'time': None, 'duration': None, 'event_reference': 'Meeting with Alison', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 18:01:32.109 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'confirm_action', 'confidence': 0.9, 'extracted_info': {'name': None, 'date': '2025-07-12', 'time': None, 'duration': None, 'event_reference': 'Meeting with Alison', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 18:01:33.531 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: idle
+2025-07-07 18:01:33.531 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: idle
+2025-07-07 18:01:33.531 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: idle
+2025-07-07 18:01:33.535 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 18:01:33.535 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 18:01:33.535 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 18:01:33.538 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: ✅ Successfully updated meeting!
+New time: 2025-07-12T22:00:00+05:30
+2025-07-07 18:01:33.538 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: ✅ Successfully updated meeting!
+New time: 2025-07-12T22:00:00+05:30
+2025-07-07 18:01:33.538 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: ✅ Successfully updated meeting!
+New time: 2025-07-12T22:00:00+05:30
+2025-07-07 18:02:04.930 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 18:02:04.930 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 18:02:04.930 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 18:02:04.932 | INFO     | main:chat_with_bot:70 - 📥 Received input: cancel the meeting with alice
+2025-07-07 18:02:04.932 | INFO     | main:chat_with_bot:70 - 📥 Received input: cancel the meeting with alice
+2025-07-07 18:02:04.932 | INFO     | main:chat_with_bot:70 - 📥 Received input: cancel the meeting with alice
+2025-07-07 18:02:04.934 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 18:02:04.934 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 18:02:04.934 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 18:02:04.935 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 18:02:04.935 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 18:02:04.935 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 18:02:04.937 | INFO     | simple_agent:process_message:266 - 🔄 Processing: cancel the meeting with alice
+2025-07-07 18:02:04.937 | INFO     | simple_agent:process_message:266 - 🔄 Processing: cancel the meeting with alice
+2025-07-07 18:02:04.937 | INFO     | simple_agent:process_message:266 - 🔄 Processing: cancel the meeting with alice
+2025-07-07 18:02:04.938 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:02:04.938 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:02:04.938 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:02:05.696 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:02:05.696 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:02:05.696 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 18:02:07.299 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'cancel_meeting', 'confidence': 0.8, 'extracted_info': {'name': 'Alice', 'date': None, 'time': None, 'duration': None, 'event_reference': None, 'modification_type': 'cancel'}, 'context_clues': {'is_followup': False, 'references_previous': False, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'questioning', 'missing_information': ['event_reference'], 'user_emotion': 'neutral'}
+2025-07-07 18:02:07.299 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'cancel_meeting', 'confidence': 0.8, 'extracted_info': {'name': 'Alice', 'date': None, 'time': None, 'duration': None, 'event_reference': None, 'modification_type': 'cancel'}, 'context_clues': {'is_followup': False, 'references_previous': False, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'questioning', 'missing_information': ['event_reference'], 'user_emotion': 'neutral'}
+2025-07-07 18:02:07.299 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'cancel_meeting', 'confidence': 0.8, 'extracted_info': {'name': 'Alice', 'date': None, 'time': None, 'duration': None, 'event_reference': None, 'modification_type': 'cancel'}, 'context_clues': {'is_followup': False, 'references_previous': False, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'questioning', 'missing_information': ['event_reference'], 'user_emotion': 'neutral'}
+2025-07-07 18:02:07.302 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:02:07.302 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:02:07.302 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:02:07.950 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:02:07.950 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:02:07.950 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:02:07.952 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: cancelling
+2025-07-07 18:02:07.952 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: cancelling
+2025-07-07 18:02:07.952 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: cancelling
+2025-07-07 18:02:07.954 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 18:02:07.954 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 18:02:07.954 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 18:02:07.956 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: Here are your upcoming meetings:
+1. 2025-07-10 20:57 - Meeting with KOSA
+2. 2025-07-11 10:00 - Meeting with Stan Lee
+3. 2025-07-12 18:26 - Meeting with cat-women
+4. 2025-07-12 22:00 - Meeting with Alison
+5. 2025-07-13 14:00 - Meeting with John Doe
+
+Which meeting would you like to cancel? You can refer to it by number or name.
+2025-07-07 18:02:07.956 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: Here are your upcoming meetings:
+1. 2025-07-10 20:57 - Meeting with KOSA
+2. 2025-07-11 10:00 - Meeting with Stan Lee
+3. 2025-07-12 18:26 - Meeting with cat-women
+4. 2025-07-12 22:00 - Meeting with Alison
+5. 2025-07-13 14:00 - Meeting with John Doe
+
+Which meeting would you like to cancel? You can refer to it by number or name.
+2025-07-07 18:02:07.956 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: Here are your upcoming meetings:
+1. 2025-07-10 20:57 - Meeting with KOSA
+2. 2025-07-11 10:00 - Meeting with Stan Lee
+3. 2025-07-12 18:26 - Meeting with cat-women
+4. 2025-07-12 22:00 - Meeting with Alison
+5. 2025-07-13 14:00 - Meeting with John Doe
+
+Which meeting would you like to cancel? You can refer to it by number or name.
+2025-07-07 18:02:32.601 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 18:02:32.601 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 18:02:32.601 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 18:02:32.606 | INFO     | main:chat_with_bot:70 - 📥 Received input: cancel the meeting with alison
+2025-07-07 18:02:32.606 | INFO     | main:chat_with_bot:70 - 📥 Received input: cancel the meeting with alison
+2025-07-07 18:02:32.606 | INFO     | main:chat_with_bot:70 - 📥 Received input: cancel the meeting with alison
+2025-07-07 18:02:32.608 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 18:02:32.608 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 18:02:32.608 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 18:02:32.611 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 18:02:32.611 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 18:02:32.611 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 18:02:32.613 | INFO     | simple_agent:process_message:266 - 🔄 Processing: cancel the meeting with alison
+2025-07-07 18:02:32.613 | INFO     | simple_agent:process_message:266 - 🔄 Processing: cancel the meeting with alison
+2025-07-07 18:02:32.613 | INFO     | simple_agent:process_message:266 - 🔄 Processing: cancel the meeting with alison
+2025-07-07 18:02:32.615 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:02:32.615 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:02:32.615 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:02:33.389 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:02:33.389 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:02:33.389 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 18:02:34.884 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'cancel_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Alison', 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Alison', 'modification_type': 'cancel'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 18:02:34.884 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'cancel_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Alison', 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Alison', 'modification_type': 'cancel'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 18:02:34.884 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'cancel_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Alison', 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Alison', 'modification_type': 'cancel'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 18:02:34.887 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:02:34.887 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:02:34.887 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:02:35.488 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:02:35.488 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:02:35.488 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:02:35.491 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: cancelling
+2025-07-07 18:02:35.491 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: cancelling
+2025-07-07 18:02:35.491 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: cancelling
+2025-07-07 18:02:35.494 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 18:02:35.494 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 18:02:35.494 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 18:02:35.496 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You're asking to cancel: **Meeting with Alison** on 2025-07-12 22:00. Should I go ahead?
+2025-07-07 18:02:35.496 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You're asking to cancel: **Meeting with Alison** on 2025-07-12 22:00. Should I go ahead?
+2025-07-07 18:02:35.496 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You're asking to cancel: **Meeting with Alison** on 2025-07-12 22:00. Should I go ahead?
+2025-07-07 18:02:56.890 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 18:02:56.890 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 18:02:56.890 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 18:02:56.892 | INFO     | main:chat_with_bot:70 - 📥 Received input: shift the meeting with alison to 2 days earlier 
+2025-07-07 18:02:56.892 | INFO     | main:chat_with_bot:70 - 📥 Received input: shift the meeting with alison to 2 days earlier 
+2025-07-07 18:02:56.892 | INFO     | main:chat_with_bot:70 - 📥 Received input: shift the meeting with alison to 2 days earlier 
+2025-07-07 18:02:56.894 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 18:02:56.894 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 18:02:56.894 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 18:02:56.896 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 18:02:56.896 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 18:02:56.896 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 18:02:56.899 | INFO     | simple_agent:process_message:266 - 🔄 Processing: shift the meeting with alison to 2 days earlier 
+2025-07-07 18:02:56.899 | INFO     | simple_agent:process_message:266 - 🔄 Processing: shift the meeting with alison to 2 days earlier 
+2025-07-07 18:02:56.899 | INFO     | simple_agent:process_message:266 - 🔄 Processing: shift the meeting with alison to 2 days earlier 
+2025-07-07 18:02:56.901 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:02:56.901 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:02:56.901 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:02:57.552 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:02:57.552 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:02:57.552 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 18:02:59.503 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'modify_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Alison', 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Alison', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': ['new date'], 'user_emotion': 'neutral'}
+2025-07-07 18:02:59.503 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'modify_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Alison', 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Alison', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': ['new date'], 'user_emotion': 'neutral'}
+2025-07-07 18:02:59.503 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'modify_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Alison', 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Alison', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': ['new date'], 'user_emotion': 'neutral'}
+2025-07-07 18:02:59.505 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:02:59.505 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:02:59.505 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:03:00.136 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:03:00.136 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:03:00.136 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:03:00.140 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: modifying
+2025-07-07 18:03:00.140 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: modifying
+2025-07-07 18:03:00.140 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: modifying
+2025-07-07 18:03:00.143 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 18:03:00.143 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 18:03:00.143 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 18:03:00.145 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You want to modify **Meeting with Alison** on 2025-07-12 22:00. What changes would you like to make?
+2025-07-07 18:03:00.145 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You want to modify **Meeting with Alison** on 2025-07-12 22:00. What changes would you like to make?
+2025-07-07 18:03:00.145 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You want to modify **Meeting with Alison** on 2025-07-12 22:00. What changes would you like to make?
+2025-07-07 18:03:18.605 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 18:03:18.605 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 18:03:18.605 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 18:03:18.607 | INFO     | main:chat_with_bot:70 - 📥 Received input: schedule it 2 days arly
+2025-07-07 18:03:18.607 | INFO     | main:chat_with_bot:70 - 📥 Received input: schedule it 2 days arly
+2025-07-07 18:03:18.607 | INFO     | main:chat_with_bot:70 - 📥 Received input: schedule it 2 days arly
+2025-07-07 18:03:18.608 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 18:03:18.608 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 18:03:18.608 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 18:03:18.611 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 18:03:18.611 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 18:03:18.611 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 18:03:18.612 | INFO     | simple_agent:process_message:266 - 🔄 Processing: schedule it 2 days arly
+2025-07-07 18:03:18.612 | INFO     | simple_agent:process_message:266 - 🔄 Processing: schedule it 2 days arly
+2025-07-07 18:03:18.612 | INFO     | simple_agent:process_message:266 - 🔄 Processing: schedule it 2 days arly
+2025-07-07 18:03:18.615 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:03:18.615 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:03:18.615 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:03:19.306 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:03:19.306 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:03:19.306 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 18:03:21.372 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'modify_meeting', 'confidence': 0.9, 'extracted_info': {'name': None, 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Alison', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 18:03:21.372 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'modify_meeting', 'confidence': 0.9, 'extracted_info': {'name': None, 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Alison', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 18:03:21.372 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'modify_meeting', 'confidence': 0.9, 'extracted_info': {'name': None, 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Alison', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 18:03:21.385 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:03:21.385 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:03:21.385 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:03:22.087 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:03:22.087 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:03:22.087 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:03:22.091 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: modifying
+2025-07-07 18:03:22.091 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: modifying
+2025-07-07 18:03:22.091 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: modifying
+2025-07-07 18:03:22.094 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 18:03:22.094 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 18:03:22.094 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 18:03:22.097 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You want to modify **Meeting with Alison** on 2025-07-12 22:00. What changes would you like to make?
+2025-07-07 18:03:22.097 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You want to modify **Meeting with Alison** on 2025-07-12 22:00. What changes would you like to make?
+2025-07-07 18:03:22.097 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You want to modify **Meeting with Alison** on 2025-07-12 22:00. What changes would you like to make?
+2025-07-07 18:03:34.377 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 18:03:34.377 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 18:03:34.377 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 18:03:34.379 | INFO     | main:chat_with_bot:70 - 📥 Received input: move it back 2 days
+2025-07-07 18:03:34.379 | INFO     | main:chat_with_bot:70 - 📥 Received input: move it back 2 days
+2025-07-07 18:03:34.379 | INFO     | main:chat_with_bot:70 - 📥 Received input: move it back 2 days
+2025-07-07 18:03:34.381 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 18:03:34.381 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 18:03:34.381 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 738778af-1c01-49be-8b84-404c373e0aba
+2025-07-07 18:03:34.383 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 18:03:34.383 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 18:03:34.383 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 18:03:34.385 | INFO     | simple_agent:process_message:266 - 🔄 Processing: move it back 2 days
+2025-07-07 18:03:34.385 | INFO     | simple_agent:process_message:266 - 🔄 Processing: move it back 2 days
+2025-07-07 18:03:34.385 | INFO     | simple_agent:process_message:266 - 🔄 Processing: move it back 2 days
+2025-07-07 18:03:34.387 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:03:34.387 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:03:34.387 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:03:34.982 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:03:34.982 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:03:34.982 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 18:03:37.137 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'modify_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Alison', 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Alison', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 18:03:37.137 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'modify_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Alison', 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Alison', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 18:03:37.137 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'modify_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Alison', 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Alison', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 18:03:37.141 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:03:37.141 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:03:37.141 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 18:03:37.754 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:03:37.754 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:03:37.754 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 18:03:37.761 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: modifying
+2025-07-07 18:03:37.761 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: modifying
+2025-07-07 18:03:37.761 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: modifying
+2025-07-07 18:03:37.764 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 18:03:37.764 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 18:03:37.764 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 18:03:37.766 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You want to modify **Meeting with Alison** on 2025-07-12 22:00. What changes would you like to make?
+2025-07-07 18:03:37.766 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You want to modify **Meeting with Alison** on 2025-07-12 22:00. What changes would you like to make?
+2025-07-07 18:03:37.766 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You want to modify **Meeting with Alison** on 2025-07-12 22:00. What changes would you like to make?
