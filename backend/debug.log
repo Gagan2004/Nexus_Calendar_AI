@@ -964,3 +964,502 @@ INFO:googleapiclient.discovery_cache:file_cache is only supported with oauth2cli
 2025-07-07 15:55:22.028 | INFO     | main:<module>:25 - ✅ ConversationalCalendarAgent loaded successfully
 2025-07-07 15:55:22.028 | INFO     | main:<module>:25 - ✅ ConversationalCalendarAgent loaded successfully
 2025-07-07 15:55:22.028 | INFO     | main:<module>:25 - ✅ ConversationalCalendarAgent loaded successfully
+INFO:googleapiclient.discovery_cache:file_cache is only supported with oauth2client<4.0.0
+2025-07-07 16:35:20.193 | INFO     | tools:<module>:31 - ✅ Google Calendar service initialized
+INFO:googleapiclient.discovery_cache:file_cache is only supported with oauth2client<4.0.0
+2025-07-07 16:35:21.635 | INFO     | tools:<module>:31 - ✅ Google Calendar service initialized
+2025-07-07 16:35:22.140 | INFO     | simple_agent:__init__:81 - ✅ Enhanced Calendar Agent initialized
+2025-07-07 16:35:22.140 | INFO     | simple_agent:__init__:81 - ✅ Enhanced Calendar Agent initialized
+2025-07-07 16:35:22.140 | INFO     | simple_agent:__init__:81 - ✅ Enhanced Calendar Agent initialized
+2025-07-07 16:35:22.145 | INFO     | main:<module>:25 - ✅ ConversationalCalendarAgent loaded successfully
+2025-07-07 16:35:22.145 | INFO     | main:<module>:25 - ✅ ConversationalCalendarAgent loaded successfully
+2025-07-07 16:35:22.145 | INFO     | main:<module>:25 - ✅ ConversationalCalendarAgent loaded successfully
+2025-07-07 16:35:23.291 | INFO     | simple_agent:__init__:81 - ✅ Enhanced Calendar Agent initialized
+2025-07-07 16:35:23.291 | INFO     | simple_agent:__init__:81 - ✅ Enhanced Calendar Agent initialized
+2025-07-07 16:35:23.291 | INFO     | simple_agent:__init__:81 - ✅ Enhanced Calendar Agent initialized
+2025-07-07 16:35:23.296 | INFO     | main:<module>:25 - ✅ ConversationalCalendarAgent loaded successfully
+2025-07-07 16:35:23.296 | INFO     | main:<module>:25 - ✅ ConversationalCalendarAgent loaded successfully
+2025-07-07 16:35:23.296 | INFO     | main:<module>:25 - ✅ ConversationalCalendarAgent loaded successfully
+INFO:googleapiclient.discovery_cache:file_cache is only supported with oauth2client<4.0.0
+2025-07-07 16:44:11.820 | INFO     | tools:<module>:45 - ✅ Google Calendar service initialized
+2025-07-07 16:44:11.821 | INFO     | tools:<module>:45 - ✅ Google Calendar service initialized
+2025-07-07 16:44:13.844 | INFO     | simple_agent:__init__:81 - ✅ Enhanced Calendar Agent initialized
+2025-07-07 16:44:13.844 | INFO     | simple_agent:__init__:81 - ✅ Enhanced Calendar Agent initialized
+2025-07-07 16:44:13.844 | INFO     | simple_agent:__init__:81 - ✅ Enhanced Calendar Agent initialized
+2025-07-07 16:44:13.855 | INFO     | simple_agent:__init__:81 - ✅ Enhanced Calendar Agent initialized
+2025-07-07 16:44:13.855 | INFO     | simple_agent:__init__:81 - ✅ Enhanced Calendar Agent initialized
+2025-07-07 16:44:13.855 | INFO     | simple_agent:__init__:81 - ✅ Enhanced Calendar Agent initialized
+2025-07-07 16:44:13.861 | INFO     | main:<module>:25 - ✅ ConversationalCalendarAgent loaded successfully
+2025-07-07 16:44:13.861 | INFO     | main:<module>:25 - ✅ ConversationalCalendarAgent loaded successfully
+2025-07-07 16:44:13.861 | INFO     | main:<module>:25 - ✅ ConversationalCalendarAgent loaded successfully
+2025-07-07 16:44:13.862 | INFO     | main:<module>:25 - ✅ ConversationalCalendarAgent loaded successfully
+2025-07-07 16:44:13.862 | INFO     | main:<module>:25 - ✅ ConversationalCalendarAgent loaded successfully
+2025-07-07 16:44:13.862 | INFO     | main:<module>:25 - ✅ ConversationalCalendarAgent loaded successfully
+2025-07-07 16:45:27.446 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 16:45:27.446 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 16:45:27.446 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 16:45:27.448 | INFO     | main:chat_with_bot:70 - 📥 Received input: book an apointment for tomorrow 9 :10 am for 20 minutes in the name of Kora-Kagaz
+2025-07-07 16:45:27.448 | INFO     | main:chat_with_bot:70 - 📥 Received input: book an apointment for tomorrow 9 :10 am for 20 minutes in the name of Kora-Kagaz
+2025-07-07 16:45:27.448 | INFO     | main:chat_with_bot:70 - 📥 Received input: book an apointment for tomorrow 9 :10 am for 20 minutes in the name of Kora-Kagaz
+2025-07-07 16:45:27.451 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 876e4b97-eb1b-4157-88de-abbc0ecf9a62
+2025-07-07 16:45:27.451 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 876e4b97-eb1b-4157-88de-abbc0ecf9a62
+2025-07-07 16:45:27.451 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 876e4b97-eb1b-4157-88de-abbc0ecf9a62
+2025-07-07 16:45:27.453 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 16:45:27.453 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 16:45:27.453 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 16:45:27.455 | INFO     | simple_agent:process_message:266 - 🔄 Processing: book an apointment for tomorrow 9 :10 am for 20 minutes in the name of Kora-Kagaz
+2025-07-07 16:45:27.455 | INFO     | simple_agent:process_message:266 - 🔄 Processing: book an apointment for tomorrow 9 :10 am for 20 minutes in the name of Kora-Kagaz
+2025-07-07 16:45:27.455 | INFO     | simple_agent:process_message:266 - 🔄 Processing: book an apointment for tomorrow 9 :10 am for 20 minutes in the name of Kora-Kagaz
+2025-07-07 16:45:27.458 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 16:45:27.458 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 16:45:27.458 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 16:45:28.840 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 16:45:28.840 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 16:45:28.840 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 16:45:30.899 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'book_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Kora-Kagaz', 'date': '2025-07-08', 'time': '09:10', 'duration': 20, 'event_reference': None, 'modification_type': None}, 'context_clues': {'is_followup': False, 'references_previous': False, 'urgency_level': 'low', 'politeness_level': 'formal'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 16:45:30.899 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'book_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Kora-Kagaz', 'date': '2025-07-08', 'time': '09:10', 'duration': 20, 'event_reference': None, 'modification_type': None}, 'context_clues': {'is_followup': False, 'references_previous': False, 'urgency_level': 'low', 'politeness_level': 'formal'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 16:45:30.899 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'book_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Kora-Kagaz', 'date': '2025-07-08', 'time': '09:10', 'duration': 20, 'event_reference': None, 'modification_type': None}, 'context_clues': {'is_followup': False, 'references_previous': False, 'urgency_level': 'low', 'politeness_level': 'formal'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 16:45:30.902 | INFO     | tools:check_calendar_availability:52 - 🔍 Checking availability for 2025-07-08 at 09:10 for 20 minutes
+2025-07-07 16:45:30.902 | INFO     | tools:check_calendar_availability:52 - 🔍 Checking availability for 2025-07-08 at 09:10 for 20 minutes
+2025-07-07 16:45:30.902 | INFO     | tools:check_calendar_availability:52 - 🔍 Checking availability for 2025-07-08 at 09:10 for 20 minutes
+2025-07-07 16:45:31.540 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: booking
+2025-07-07 16:45:31.540 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: booking
+2025-07-07 16:45:31.540 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: booking
+2025-07-07 16:45:31.542 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {'name': 'Kora-Kagaz', 'date': '2025-07-08', 'time': '09:10', 'duration': 20}
+2025-07-07 16:45:31.542 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {'name': 'Kora-Kagaz', 'date': '2025-07-08', 'time': '09:10', 'duration': 20}
+2025-07-07 16:45:31.542 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {'name': 'Kora-Kagaz', 'date': '2025-07-08', 'time': '09:10', 'duration': 20}
+2025-07-07 16:45:31.544 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: Perfect! I can book your meeting with Kora-Kagaz on 2025-07-08 at 09:10. Shall I go ahead and book it?
+2025-07-07 16:45:31.544 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: Perfect! I can book your meeting with Kora-Kagaz on 2025-07-08 at 09:10. Shall I go ahead and book it?
+2025-07-07 16:45:31.544 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: Perfect! I can book your meeting with Kora-Kagaz on 2025-07-08 at 09:10. Shall I go ahead and book it?
+2025-07-07 16:45:43.592 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 16:45:43.592 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 16:45:43.592 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 16:45:43.595 | INFO     | main:chat_with_bot:70 - 📥 Received input: sure , go ahead
+2025-07-07 16:45:43.595 | INFO     | main:chat_with_bot:70 - 📥 Received input: sure , go ahead
+2025-07-07 16:45:43.595 | INFO     | main:chat_with_bot:70 - 📥 Received input: sure , go ahead
+2025-07-07 16:45:43.598 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 876e4b97-eb1b-4157-88de-abbc0ecf9a62
+2025-07-07 16:45:43.598 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 876e4b97-eb1b-4157-88de-abbc0ecf9a62
+2025-07-07 16:45:43.598 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 876e4b97-eb1b-4157-88de-abbc0ecf9a62
+2025-07-07 16:45:43.600 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 16:45:43.600 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 16:45:43.600 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 16:45:43.604 | INFO     | simple_agent:process_message:266 - 🔄 Processing: sure , go ahead
+2025-07-07 16:45:43.604 | INFO     | simple_agent:process_message:266 - 🔄 Processing: sure , go ahead
+2025-07-07 16:45:43.604 | INFO     | simple_agent:process_message:266 - 🔄 Processing: sure , go ahead
+2025-07-07 16:45:43.616 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 16:45:43.616 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 16:45:43.616 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 16:45:44.426 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 16:45:44.426 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 16:45:44.426 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 16:45:45.910 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'confirm_action', 'confidence': 0.9, 'extracted_info': {'name': None, 'date': None, 'time': None, 'duration': None, 'event_reference': 'the meeting', 'modification_type': None}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 16:45:45.910 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'confirm_action', 'confidence': 0.9, 'extracted_info': {'name': None, 'date': None, 'time': None, 'duration': None, 'event_reference': 'the meeting', 'modification_type': None}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 16:45:45.910 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'confirm_action', 'confidence': 0.9, 'extracted_info': {'name': None, 'date': None, 'time': None, 'duration': None, 'event_reference': 'the meeting', 'modification_type': None}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 16:45:45.912 | INFO     | tools:book_appointment:159 - 📨 Booking meeting: Kora-Kagaz on 2025-07-08 at 09:10 for 20 mins
+2025-07-07 16:45:45.912 | INFO     | tools:book_appointment:159 - 📨 Booking meeting: Kora-Kagaz on 2025-07-08 at 09:10 for 20 mins
+2025-07-07 16:45:45.912 | INFO     | tools:book_appointment:159 - 📨 Booking meeting: Kora-Kagaz on 2025-07-08 at 09:10 for 20 mins
+2025-07-07 16:45:46.670 | INFO     | tools:book_appointment:199 - ✅ Event created: 70j1gcvhmj5n5bcs6ap41fnjos
+2025-07-07 16:45:46.670 | INFO     | tools:book_appointment:199 - ✅ Event created: 70j1gcvhmj5n5bcs6ap41fnjos
+2025-07-07 16:45:46.670 | INFO     | tools:book_appointment:199 - ✅ Event created: 70j1gcvhmj5n5bcs6ap41fnjos
+2025-07-07 16:45:46.672 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: idle
+2025-07-07 16:45:46.672 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: idle
+2025-07-07 16:45:46.672 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: idle
+2025-07-07 16:45:46.674 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 16:45:46.674 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 16:45:46.674 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 16:45:46.676 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: ✅ Excellent! I've booked your meeting with Kora-Kagaz on 2025-07-08 at 09:10. You'll receive a calendar invitation shortly!
+2025-07-07 16:45:46.676 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: ✅ Excellent! I've booked your meeting with Kora-Kagaz on 2025-07-08 at 09:10. You'll receive a calendar invitation shortly!
+2025-07-07 16:45:46.676 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: ✅ Excellent! I've booked your meeting with Kora-Kagaz on 2025-07-08 at 09:10. You'll receive a calendar invitation shortly!
+2025-07-07 16:46:33.544 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 16:46:33.544 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 16:46:33.544 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 16:46:33.547 | INFO     | main:chat_with_bot:70 - 📥 Received input: modify the booking for kora-kagaz , one day ahead , at same time 
+2025-07-07 16:46:33.547 | INFO     | main:chat_with_bot:70 - 📥 Received input: modify the booking for kora-kagaz , one day ahead , at same time 
+2025-07-07 16:46:33.547 | INFO     | main:chat_with_bot:70 - 📥 Received input: modify the booking for kora-kagaz , one day ahead , at same time 
+2025-07-07 16:46:33.549 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 876e4b97-eb1b-4157-88de-abbc0ecf9a62
+2025-07-07 16:46:33.549 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 876e4b97-eb1b-4157-88de-abbc0ecf9a62
+2025-07-07 16:46:33.549 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 876e4b97-eb1b-4157-88de-abbc0ecf9a62
+2025-07-07 16:46:33.552 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 16:46:33.552 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 16:46:33.552 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 16:46:33.554 | INFO     | simple_agent:process_message:266 - 🔄 Processing: modify the booking for kora-kagaz , one day ahead , at same time 
+2025-07-07 16:46:33.554 | INFO     | simple_agent:process_message:266 - 🔄 Processing: modify the booking for kora-kagaz , one day ahead , at same time 
+2025-07-07 16:46:33.554 | INFO     | simple_agent:process_message:266 - 🔄 Processing: modify the booking for kora-kagaz , one day ahead , at same time 
+2025-07-07 16:46:33.557 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 16:46:33.557 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 16:46:33.557 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 16:46:34.370 | INFO     | tools:get_upcoming_events:492 - ✅ Found 8 upcoming events
+2025-07-07 16:46:34.370 | INFO     | tools:get_upcoming_events:492 - ✅ Found 8 upcoming events
+2025-07-07 16:46:34.370 | INFO     | tools:get_upcoming_events:492 - ✅ Found 8 upcoming events
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 16:46:36.281 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'modify_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Kora-Kagaz', 'date': '2025-07-09', 'time': '09:10', 'duration': None, 'event_reference': '2025-07-08 09:10: Meeting with Kora-Kagaz', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 16:46:36.281 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'modify_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Kora-Kagaz', 'date': '2025-07-09', 'time': '09:10', 'duration': None, 'event_reference': '2025-07-08 09:10: Meeting with Kora-Kagaz', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 16:46:36.281 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'modify_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Kora-Kagaz', 'date': '2025-07-09', 'time': '09:10', 'duration': None, 'event_reference': '2025-07-08 09:10: Meeting with Kora-Kagaz', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 16:46:36.284 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 16:46:36.284 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 16:46:36.284 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 16:46:36.896 | INFO     | tools:get_upcoming_events:492 - ✅ Found 8 upcoming events
+2025-07-07 16:46:36.896 | INFO     | tools:get_upcoming_events:492 - ✅ Found 8 upcoming events
+2025-07-07 16:46:36.896 | INFO     | tools:get_upcoming_events:492 - ✅ Found 8 upcoming events
+2025-07-07 16:46:36.899 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: modifying
+2025-07-07 16:46:36.899 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: modifying
+2025-07-07 16:46:36.899 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: modifying
+2025-07-07 16:46:36.902 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {'date': '2025-07-09', 'time': '09:10'}
+2025-07-07 16:46:36.902 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {'date': '2025-07-09', 'time': '09:10'}
+2025-07-07 16:46:36.902 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {'date': '2025-07-09', 'time': '09:10'}
+2025-07-07 16:46:36.904 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You're asking to modify **Meeting with Kora-Kagaz** on 2025-07-08 09:10. Do you want to reschedule it to 2025-07-09 09:10?
+2025-07-07 16:46:36.904 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You're asking to modify **Meeting with Kora-Kagaz** on 2025-07-08 09:10. Do you want to reschedule it to 2025-07-09 09:10?
+2025-07-07 16:46:36.904 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You're asking to modify **Meeting with Kora-Kagaz** on 2025-07-08 09:10. Do you want to reschedule it to 2025-07-09 09:10?
+2025-07-07 16:46:45.119 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 16:46:45.119 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 16:46:45.119 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 16:46:45.121 | INFO     | main:chat_with_bot:70 - 📥 Received input: yes
+2025-07-07 16:46:45.121 | INFO     | main:chat_with_bot:70 - 📥 Received input: yes
+2025-07-07 16:46:45.121 | INFO     | main:chat_with_bot:70 - 📥 Received input: yes
+2025-07-07 16:46:45.124 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 876e4b97-eb1b-4157-88de-abbc0ecf9a62
+2025-07-07 16:46:45.124 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 876e4b97-eb1b-4157-88de-abbc0ecf9a62
+2025-07-07 16:46:45.124 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 876e4b97-eb1b-4157-88de-abbc0ecf9a62
+2025-07-07 16:46:45.126 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 16:46:45.126 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 16:46:45.126 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 16:46:45.128 | INFO     | simple_agent:process_message:266 - 🔄 Processing: yes
+2025-07-07 16:46:45.128 | INFO     | simple_agent:process_message:266 - 🔄 Processing: yes
+2025-07-07 16:46:45.128 | INFO     | simple_agent:process_message:266 - 🔄 Processing: yes
+2025-07-07 16:46:45.131 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 16:46:45.131 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 16:46:45.131 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 16:46:46.085 | INFO     | tools:get_upcoming_events:492 - ✅ Found 8 upcoming events
+2025-07-07 16:46:46.085 | INFO     | tools:get_upcoming_events:492 - ✅ Found 8 upcoming events
+2025-07-07 16:46:46.085 | INFO     | tools:get_upcoming_events:492 - ✅ Found 8 upcoming events
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 16:46:47.515 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'confirm_action', 'confidence': 0.9, 'extracted_info': {'name': None, 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Kora-Kagaz', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 16:46:47.515 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'confirm_action', 'confidence': 0.9, 'extracted_info': {'name': None, 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Kora-Kagaz', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 16:46:47.515 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'confirm_action', 'confidence': 0.9, 'extracted_info': {'name': None, 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Kora-Kagaz', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 16:46:48.860 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: idle
+2025-07-07 16:46:48.860 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: idle
+2025-07-07 16:46:48.860 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: idle
+2025-07-07 16:46:48.863 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 16:46:48.863 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 16:46:48.863 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 16:46:48.865 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: ✅ Successfully updated meeting!
+New time: 2025-07-09T09:10:00+05:30
+2025-07-07 16:46:48.865 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: ✅ Successfully updated meeting!
+New time: 2025-07-09T09:10:00+05:30
+2025-07-07 16:46:48.865 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: ✅ Successfully updated meeting!
+New time: 2025-07-09T09:10:00+05:30
+2025-07-07 16:47:27.984 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 16:47:27.984 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 16:47:27.984 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 16:47:27.986 | INFO     | main:chat_with_bot:70 - 📥 Received input: cancel the booking for kora kagaz 
+2025-07-07 16:47:27.986 | INFO     | main:chat_with_bot:70 - 📥 Received input: cancel the booking for kora kagaz 
+2025-07-07 16:47:27.986 | INFO     | main:chat_with_bot:70 - 📥 Received input: cancel the booking for kora kagaz 
+2025-07-07 16:47:27.988 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 876e4b97-eb1b-4157-88de-abbc0ecf9a62
+2025-07-07 16:47:27.988 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 876e4b97-eb1b-4157-88de-abbc0ecf9a62
+2025-07-07 16:47:27.988 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 876e4b97-eb1b-4157-88de-abbc0ecf9a62
+2025-07-07 16:47:27.990 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 16:47:27.990 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 16:47:27.990 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 16:47:27.992 | INFO     | simple_agent:process_message:266 - 🔄 Processing: cancel the booking for kora kagaz 
+2025-07-07 16:47:27.992 | INFO     | simple_agent:process_message:266 - 🔄 Processing: cancel the booking for kora kagaz 
+2025-07-07 16:47:27.992 | INFO     | simple_agent:process_message:266 - 🔄 Processing: cancel the booking for kora kagaz 
+2025-07-07 16:47:27.995 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 16:47:27.995 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 16:47:27.995 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 16:47:47.261 | ERROR    | tools:get_upcoming_events:499 - ❌ Error getting events: [Errno 11001] getaddrinfo failed
+2025-07-07 16:47:47.261 | ERROR    | tools:get_upcoming_events:499 - ❌ Error getting events: [Errno 11001] getaddrinfo failed
+2025-07-07 16:47:47.261 | ERROR    | tools:get_upcoming_events:499 - ❌ Error getting events: [Errno 11001] getaddrinfo failed
+INFO:groq._base_client:Retrying request to /openai/v1/chat/completions in 0.386176 seconds
+INFO:groq._base_client:Retrying request to /openai/v1/chat/completions in 0.909280 seconds
+2025-07-07 16:47:48.565 | ERROR    | simple_agent:understand_intent:187 - ❌ Intent analysis failed: Connection error.
+2025-07-07 16:47:48.565 | ERROR    | simple_agent:understand_intent:187 - ❌ Intent analysis failed: Connection error.
+2025-07-07 16:47:48.565 | ERROR    | simple_agent:understand_intent:187 - ❌ Intent analysis failed: Connection error.
+2025-07-07 16:47:48.568 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: booking
+2025-07-07 16:47:48.568 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: booking
+2025-07-07 16:47:48.568 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: booking
+2025-07-07 16:47:48.570 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 16:47:48.570 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 16:47:48.570 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 16:47:48.571 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: I'd love to help you schedule a meeting! Could you tell me who you'd like to meet with and when?
+2025-07-07 16:47:48.571 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: I'd love to help you schedule a meeting! Could you tell me who you'd like to meet with and when?
+2025-07-07 16:47:48.571 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: I'd love to help you schedule a meeting! Could you tell me who you'd like to meet with and when?
+2025-07-07 17:37:51.432 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 17:37:51.432 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 17:37:51.432 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 17:37:51.435 | INFO     | main:chat_with_bot:70 - 📥 Received input: cancel the meeting for kora kagaz
+2025-07-07 17:37:51.435 | INFO     | main:chat_with_bot:70 - 📥 Received input: cancel the meeting for kora kagaz
+2025-07-07 17:37:51.435 | INFO     | main:chat_with_bot:70 - 📥 Received input: cancel the meeting for kora kagaz
+2025-07-07 17:37:51.438 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 876e4b97-eb1b-4157-88de-abbc0ecf9a62
+2025-07-07 17:37:51.438 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 876e4b97-eb1b-4157-88de-abbc0ecf9a62
+2025-07-07 17:37:51.438 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 876e4b97-eb1b-4157-88de-abbc0ecf9a62
+2025-07-07 17:37:51.441 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 17:37:51.441 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 17:37:51.441 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 17:37:51.464 | INFO     | simple_agent:process_message:266 - 🔄 Processing: cancel the meeting for kora kagaz
+2025-07-07 17:37:51.464 | INFO     | simple_agent:process_message:266 - 🔄 Processing: cancel the meeting for kora kagaz
+2025-07-07 17:37:51.464 | INFO     | simple_agent:process_message:266 - 🔄 Processing: cancel the meeting for kora kagaz
+2025-07-07 17:37:51.468 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:37:51.468 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:37:51.468 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:37:52.254 | INFO     | tools:get_upcoming_events:492 - ✅ Found 8 upcoming events
+2025-07-07 17:37:52.254 | INFO     | tools:get_upcoming_events:492 - ✅ Found 8 upcoming events
+2025-07-07 17:37:52.254 | INFO     | tools:get_upcoming_events:492 - ✅ Found 8 upcoming events
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 17:37:53.710 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'cancel_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Kora Kagaz', 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Kora-Kagaz', 'modification_type': 'cancel'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 17:37:53.710 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'cancel_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Kora Kagaz', 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Kora-Kagaz', 'modification_type': 'cancel'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 17:37:53.710 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'cancel_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Kora Kagaz', 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Kora-Kagaz', 'modification_type': 'cancel'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 17:37:53.726 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:37:53.726 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:37:53.726 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:37:54.364 | INFO     | tools:get_upcoming_events:492 - ✅ Found 8 upcoming events
+2025-07-07 17:37:54.364 | INFO     | tools:get_upcoming_events:492 - ✅ Found 8 upcoming events
+2025-07-07 17:37:54.364 | INFO     | tools:get_upcoming_events:492 - ✅ Found 8 upcoming events
+2025-07-07 17:37:54.366 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: cancelling
+2025-07-07 17:37:54.366 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: cancelling
+2025-07-07 17:37:54.366 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: cancelling
+2025-07-07 17:37:54.371 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 17:37:54.371 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 17:37:54.371 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 17:37:54.373 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You're asking to cancel: **Meeting with Kora-Kagaz** on 2025-07-09 09:10. Should I go ahead?
+2025-07-07 17:37:54.373 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You're asking to cancel: **Meeting with Kora-Kagaz** on 2025-07-09 09:10. Should I go ahead?
+2025-07-07 17:37:54.373 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You're asking to cancel: **Meeting with Kora-Kagaz** on 2025-07-09 09:10. Should I go ahead?
+2025-07-07 17:38:02.166 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 17:38:02.166 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 17:38:02.166 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 17:38:02.169 | INFO     | main:chat_with_bot:70 - 📥 Received input: yes'
+2025-07-07 17:38:02.169 | INFO     | main:chat_with_bot:70 - 📥 Received input: yes'
+2025-07-07 17:38:02.169 | INFO     | main:chat_with_bot:70 - 📥 Received input: yes'
+2025-07-07 17:38:02.171 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 876e4b97-eb1b-4157-88de-abbc0ecf9a62
+2025-07-07 17:38:02.171 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 876e4b97-eb1b-4157-88de-abbc0ecf9a62
+2025-07-07 17:38:02.171 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 876e4b97-eb1b-4157-88de-abbc0ecf9a62
+2025-07-07 17:38:02.173 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 17:38:02.173 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 17:38:02.173 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 17:38:02.175 | INFO     | simple_agent:process_message:266 - 🔄 Processing: yes'
+2025-07-07 17:38:02.175 | INFO     | simple_agent:process_message:266 - 🔄 Processing: yes'
+2025-07-07 17:38:02.175 | INFO     | simple_agent:process_message:266 - 🔄 Processing: yes'
+2025-07-07 17:38:02.177 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:38:02.177 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:38:02.177 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:38:02.831 | INFO     | tools:get_upcoming_events:492 - ✅ Found 8 upcoming events
+2025-07-07 17:38:02.831 | INFO     | tools:get_upcoming_events:492 - ✅ Found 8 upcoming events
+2025-07-07 17:38:02.831 | INFO     | tools:get_upcoming_events:492 - ✅ Found 8 upcoming events
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 17:38:04.134 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'confirm_action', 'confidence': 0.9, 'extracted_info': {'name': None, 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Kora-Kagaz', 'modification_type': 'cancel'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 17:38:04.134 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'confirm_action', 'confidence': 0.9, 'extracted_info': {'name': None, 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Kora-Kagaz', 'modification_type': 'cancel'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 17:38:04.134 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'confirm_action', 'confidence': 0.9, 'extracted_info': {'name': None, 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Kora-Kagaz', 'modification_type': 'cancel'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 17:38:04.136 | INFO     | tools:cancel_appointment:389 - ❌ Attempting to cancel event - ID: 70j1gcvhmj5n5bcs6ap41fnjos, Reference: None
+2025-07-07 17:38:04.136 | INFO     | tools:cancel_appointment:389 - ❌ Attempting to cancel event - ID: 70j1gcvhmj5n5bcs6ap41fnjos, Reference: None
+2025-07-07 17:38:04.136 | INFO     | tools:cancel_appointment:389 - ❌ Attempting to cancel event - ID: 70j1gcvhmj5n5bcs6ap41fnjos, Reference: None
+2025-07-07 17:38:05.540 | INFO     | tools:cancel_appointment:428 - ✅ Successfully canceled event: 70j1gcvhmj5n5bcs6ap41fnjos
+2025-07-07 17:38:05.540 | INFO     | tools:cancel_appointment:428 - ✅ Successfully canceled event: 70j1gcvhmj5n5bcs6ap41fnjos
+2025-07-07 17:38:05.540 | INFO     | tools:cancel_appointment:428 - ✅ Successfully canceled event: 70j1gcvhmj5n5bcs6ap41fnjos
+2025-07-07 17:38:05.555 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: idle
+2025-07-07 17:38:05.555 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: idle
+2025-07-07 17:38:05.555 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: idle
+2025-07-07 17:38:05.555 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 17:38:05.555 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 17:38:05.555 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 17:38:05.555 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: ✅ Your meeting 'Meeting with Kora-Kagaz' on 2025-07-09 09:10 has been canceled.
+2025-07-07 17:38:05.555 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: ✅ Your meeting 'Meeting with Kora-Kagaz' on 2025-07-09 09:10 has been canceled.
+2025-07-07 17:38:05.555 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: ✅ Your meeting 'Meeting with Kora-Kagaz' on 2025-07-09 09:10 has been canceled.
+2025-07-07 17:39:12.005 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 17:39:12.005 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 17:39:12.005 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 17:39:12.007 | INFO     | main:chat_with_bot:70 - 📥 Received input: cancel kora kagaz meeting
+2025-07-07 17:39:12.007 | INFO     | main:chat_with_bot:70 - 📥 Received input: cancel kora kagaz meeting
+2025-07-07 17:39:12.007 | INFO     | main:chat_with_bot:70 - 📥 Received input: cancel kora kagaz meeting
+2025-07-07 17:39:12.009 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 462a7f94-2d67-4aa2-b533-d04f3f3af5be
+2025-07-07 17:39:12.009 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 462a7f94-2d67-4aa2-b533-d04f3f3af5be
+2025-07-07 17:39:12.009 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 462a7f94-2d67-4aa2-b533-d04f3f3af5be
+2025-07-07 17:39:12.026 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 17:39:12.026 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 17:39:12.026 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 17:39:12.028 | INFO     | simple_agent:process_message:266 - 🔄 Processing: cancel kora kagaz meeting
+2025-07-07 17:39:12.028 | INFO     | simple_agent:process_message:266 - 🔄 Processing: cancel kora kagaz meeting
+2025-07-07 17:39:12.028 | INFO     | simple_agent:process_message:266 - 🔄 Processing: cancel kora kagaz meeting
+2025-07-07 17:39:12.029 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:39:12.029 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:39:12.029 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:39:12.693 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 17:39:12.693 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 17:39:12.693 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 17:39:14.139 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'cancel_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Kora-Kagaz', 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Kora-Kagaz', 'modification_type': 'cancel'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 17:39:14.139 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'cancel_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Kora-Kagaz', 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Kora-Kagaz', 'modification_type': 'cancel'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 17:39:14.139 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'cancel_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Kora-Kagaz', 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Kora-Kagaz', 'modification_type': 'cancel'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 17:39:14.142 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:39:14.142 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:39:14.142 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:39:14.857 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 17:39:14.857 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 17:39:14.857 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 17:39:14.860 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: cancelling
+2025-07-07 17:39:14.860 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: cancelling
+2025-07-07 17:39:14.860 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: cancelling
+2025-07-07 17:39:14.862 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 17:39:14.862 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 17:39:14.862 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 17:39:14.865 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You're asking to cancel: **Meeting with Ray** on 2025-07-10 15:30. Should I go ahead?
+2025-07-07 17:39:14.865 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You're asking to cancel: **Meeting with Ray** on 2025-07-10 15:30. Should I go ahead?
+2025-07-07 17:39:14.865 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You're asking to cancel: **Meeting with Ray** on 2025-07-10 15:30. Should I go ahead?
+2025-07-07 17:39:27.561 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 17:39:27.561 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 17:39:27.561 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 17:39:27.563 | INFO     | main:chat_with_bot:70 - 📥 Received input: yes
+2025-07-07 17:39:27.563 | INFO     | main:chat_with_bot:70 - 📥 Received input: yes
+2025-07-07 17:39:27.563 | INFO     | main:chat_with_bot:70 - 📥 Received input: yes
+2025-07-07 17:39:27.564 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 462a7f94-2d67-4aa2-b533-d04f3f3af5be
+2025-07-07 17:39:27.564 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 462a7f94-2d67-4aa2-b533-d04f3f3af5be
+2025-07-07 17:39:27.564 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 462a7f94-2d67-4aa2-b533-d04f3f3af5be
+2025-07-07 17:39:27.566 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 17:39:27.566 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 17:39:27.566 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 17:39:27.569 | INFO     | simple_agent:process_message:266 - 🔄 Processing: yes
+2025-07-07 17:39:27.569 | INFO     | simple_agent:process_message:266 - 🔄 Processing: yes
+2025-07-07 17:39:27.569 | INFO     | simple_agent:process_message:266 - 🔄 Processing: yes
+2025-07-07 17:39:27.571 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:39:27.571 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:39:27.571 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:39:28.180 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 17:39:28.180 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+2025-07-07 17:39:28.180 | INFO     | tools:get_upcoming_events:492 - ✅ Found 7 upcoming events
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 17:39:29.542 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'confirm_action', 'confidence': 0.9, 'extracted_info': {'name': None, 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Ray', 'modification_type': None}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 17:39:29.542 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'confirm_action', 'confidence': 0.9, 'extracted_info': {'name': None, 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Ray', 'modification_type': None}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 17:39:29.542 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'confirm_action', 'confidence': 0.9, 'extracted_info': {'name': None, 'date': None, 'time': None, 'duration': None, 'event_reference': 'Meeting with Ray', 'modification_type': None}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 17:39:29.542 | INFO     | tools:cancel_appointment:389 - ❌ Attempting to cancel event - ID: r8vla676qi9ebvhbm9pqhnkhjk, Reference: None
+2025-07-07 17:39:29.542 | INFO     | tools:cancel_appointment:389 - ❌ Attempting to cancel event - ID: r8vla676qi9ebvhbm9pqhnkhjk, Reference: None
+2025-07-07 17:39:29.542 | INFO     | tools:cancel_appointment:389 - ❌ Attempting to cancel event - ID: r8vla676qi9ebvhbm9pqhnkhjk, Reference: None
+2025-07-07 17:39:30.833 | INFO     | tools:cancel_appointment:428 - ✅ Successfully canceled event: r8vla676qi9ebvhbm9pqhnkhjk
+2025-07-07 17:39:30.833 | INFO     | tools:cancel_appointment:428 - ✅ Successfully canceled event: r8vla676qi9ebvhbm9pqhnkhjk
+2025-07-07 17:39:30.833 | INFO     | tools:cancel_appointment:428 - ✅ Successfully canceled event: r8vla676qi9ebvhbm9pqhnkhjk
+2025-07-07 17:39:30.833 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: idle
+2025-07-07 17:39:30.833 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: idle
+2025-07-07 17:39:30.833 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: idle
+2025-07-07 17:39:30.833 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 17:39:30.833 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 17:39:30.833 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {}
+2025-07-07 17:39:30.833 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: ✅ Your meeting 'Meeting with Ray' on 2025-07-10 15:30 has been canceled.
+2025-07-07 17:39:30.833 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: ✅ Your meeting 'Meeting with Ray' on 2025-07-10 15:30 has been canceled.
+2025-07-07 17:39:30.833 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: ✅ Your meeting 'Meeting with Ray' on 2025-07-10 15:30 has been canceled.
+2025-07-07 17:40:31.356 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 17:40:31.356 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 17:40:31.356 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 17:40:31.358 | INFO     | main:chat_with_bot:70 - 📥 Received input: shift the appointment of stanlee to tomorrow 
+2025-07-07 17:40:31.358 | INFO     | main:chat_with_bot:70 - 📥 Received input: shift the appointment of stanlee to tomorrow 
+2025-07-07 17:40:31.358 | INFO     | main:chat_with_bot:70 - 📥 Received input: shift the appointment of stanlee to tomorrow 
+2025-07-07 17:40:31.360 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 462a7f94-2d67-4aa2-b533-d04f3f3af5be
+2025-07-07 17:40:31.360 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 462a7f94-2d67-4aa2-b533-d04f3f3af5be
+2025-07-07 17:40:31.360 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 462a7f94-2d67-4aa2-b533-d04f3f3af5be
+2025-07-07 17:40:31.362 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 17:40:31.362 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 17:40:31.362 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 17:40:31.364 | INFO     | simple_agent:process_message:266 - 🔄 Processing: shift the appointment of stanlee to tomorrow 
+2025-07-07 17:40:31.364 | INFO     | simple_agent:process_message:266 - 🔄 Processing: shift the appointment of stanlee to tomorrow 
+2025-07-07 17:40:31.364 | INFO     | simple_agent:process_message:266 - 🔄 Processing: shift the appointment of stanlee to tomorrow 
+2025-07-07 17:40:31.366 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:40:31.366 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:40:31.366 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:40:32.023 | INFO     | tools:get_upcoming_events:492 - ✅ Found 6 upcoming events
+2025-07-07 17:40:32.023 | INFO     | tools:get_upcoming_events:492 - ✅ Found 6 upcoming events
+2025-07-07 17:40:32.023 | INFO     | tools:get_upcoming_events:492 - ✅ Found 6 upcoming events
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 17:40:33.813 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'modify_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Stan Lee', 'date': '2025-07-12', 'time': None, 'duration': None, 'event_reference': 'Meeting with Stan Lee', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': ['time'], 'user_emotion': 'neutral'}
+2025-07-07 17:40:33.813 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'modify_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Stan Lee', 'date': '2025-07-12', 'time': None, 'duration': None, 'event_reference': 'Meeting with Stan Lee', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': ['time'], 'user_emotion': 'neutral'}
+2025-07-07 17:40:33.813 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'modify_meeting', 'confidence': 0.9, 'extracted_info': {'name': 'Stan Lee', 'date': '2025-07-12', 'time': None, 'duration': None, 'event_reference': 'Meeting with Stan Lee', 'modification_type': 'date'}, 'context_clues': {'is_followup': True, 'references_previous': True, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'confirmatory', 'missing_information': ['time'], 'user_emotion': 'neutral'}
+2025-07-07 17:40:33.816 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:40:33.816 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:40:33.816 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:40:34.388 | INFO     | tools:get_upcoming_events:492 - ✅ Found 6 upcoming events
+2025-07-07 17:40:34.388 | INFO     | tools:get_upcoming_events:492 - ✅ Found 6 upcoming events
+2025-07-07 17:40:34.388 | INFO     | tools:get_upcoming_events:492 - ✅ Found 6 upcoming events
+2025-07-07 17:40:34.390 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: modifying
+2025-07-07 17:40:34.390 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: modifying
+2025-07-07 17:40:34.390 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: modifying
+2025-07-07 17:40:34.392 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {'date': '2025-07-12'}
+2025-07-07 17:40:34.392 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {'date': '2025-07-12'}
+2025-07-07 17:40:34.392 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {'date': '2025-07-12'}
+2025-07-07 17:40:34.394 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You're asking to modify **Meeting with Stan Lee** on 2025-07-11 10:00. Do you want to reschedule it to 2025-07-12 ?
+2025-07-07 17:40:34.394 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You're asking to modify **Meeting with Stan Lee** on 2025-07-11 10:00. Do you want to reschedule it to 2025-07-12 ?
+2025-07-07 17:40:34.394 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: You're asking to modify **Meeting with Stan Lee** on 2025-07-11 10:00. Do you want to reschedule it to 2025-07-12 ?
+2025-07-07 17:41:18.422 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 17:41:18.422 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 17:41:18.422 | INFO     | main:chat_with_bot:69 - 🔥 /chat endpoint was hit
+2025-07-07 17:41:18.425 | INFO     | main:chat_with_bot:70 - 📥 Received input: Show my schedule this week
+2025-07-07 17:41:18.425 | INFO     | main:chat_with_bot:70 - 📥 Received input: Show my schedule this week
+2025-07-07 17:41:18.425 | INFO     | main:chat_with_bot:70 - 📥 Received input: Show my schedule this week
+2025-07-07 17:41:18.426 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 462a7f94-2d67-4aa2-b533-d04f3f3af5be
+2025-07-07 17:41:18.426 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 462a7f94-2d67-4aa2-b533-d04f3f3af5be
+2025-07-07 17:41:18.426 | INFO     | main:chat_with_bot:71 - 📋 Session ID: 462a7f94-2d67-4aa2-b533-d04f3f3af5be
+2025-07-07 17:41:18.428 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 17:41:18.428 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 17:41:18.428 | INFO     | main:chat_with_bot:81 - 🤖 Processing with ConversationalCalendarAgent...
+2025-07-07 17:41:18.429 | INFO     | simple_agent:process_message:266 - 🔄 Processing: Show my schedule this week
+2025-07-07 17:41:18.429 | INFO     | simple_agent:process_message:266 - 🔄 Processing: Show my schedule this week
+2025-07-07 17:41:18.429 | INFO     | simple_agent:process_message:266 - 🔄 Processing: Show my schedule this week
+2025-07-07 17:41:18.431 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:41:18.431 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:41:18.431 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 10 events for next 14 days
+2025-07-07 17:41:19.052 | INFO     | tools:get_upcoming_events:492 - ✅ Found 6 upcoming events
+2025-07-07 17:41:19.052 | INFO     | tools:get_upcoming_events:492 - ✅ Found 6 upcoming events
+2025-07-07 17:41:19.052 | INFO     | tools:get_upcoming_events:492 - ✅ Found 6 upcoming events
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 17:41:20.466 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'view_schedule', 'confidence': 0.9, 'extracted_info': {'name': None, 'date': None, 'time': None, 'duration': None, 'event_reference': None, 'modification_type': None}, 'context_clues': {'is_followup': True, 'references_previous': False, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'informative', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 17:41:20.466 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'view_schedule', 'confidence': 0.9, 'extracted_info': {'name': None, 'date': None, 'time': None, 'duration': None, 'event_reference': None, 'modification_type': None}, 'context_clues': {'is_followup': True, 'references_previous': False, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'informative', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 17:41:20.466 | INFO     | simple_agent:understand_intent:180 - 🧠 Intent analysis: {'primary_intent': 'view_schedule', 'confidence': 0.9, 'extracted_info': {'name': None, 'date': None, 'time': None, 'duration': None, 'event_reference': None, 'modification_type': None}, 'context_clues': {'is_followup': True, 'references_previous': False, 'urgency_level': 'low', 'politeness_level': 'casual'}, 'suggested_response_style': 'informative', 'missing_information': [], 'user_emotion': 'neutral'}
+2025-07-07 17:41:20.468 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 20 events for next 7 days
+2025-07-07 17:41:20.468 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 20 events for next 7 days
+2025-07-07 17:41:20.468 | INFO     | tools:get_upcoming_events:446 - 📅 Getting 20 events for next 7 days
+2025-07-07 17:41:21.131 | INFO     | tools:get_upcoming_events:492 - ✅ Found 6 upcoming events
+2025-07-07 17:41:21.131 | INFO     | tools:get_upcoming_events:492 - ✅ Found 6 upcoming events
+2025-07-07 17:41:21.131 | INFO     | tools:get_upcoming_events:492 - ✅ Found 6 upcoming events
+2025-07-07 17:41:21.133 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: viewing
+2025-07-07 17:41:21.133 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: viewing
+2025-07-07 17:41:21.133 | INFO     | main:chat_with_bot:88 - 🔄 Conversation state: viewing
+2025-07-07 17:41:21.135 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {'date': '2025-07-12'}
+2025-07-07 17:41:21.135 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {'date': '2025-07-12'}
+2025-07-07 17:41:21.135 | INFO     | main:chat_with_bot:89 - 📝 Booking info: {'date': '2025-07-12'}
+2025-07-07 17:41:21.137 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: Here are your meetings for this week:
+
+📅 2025-07-10
+  🕐 20:57 - Meeting with KOSA
+📅 2025-07-11
+  🕐 10:00 - Meeting with Stan Lee
+📅 2025-07-12
+  🕐 18:26 - Meeting with cat-women
+📅 2025-07-13
+  🕐 14:00 - Meeting with John Doe
+📅 2025-07-14
+  🕐 14:00 - Meeting with John Doe
+  🕐 14:00 - Meeting with John Doe
+
+2025-07-07 17:41:21.137 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: Here are your meetings for this week:
+
+📅 2025-07-10
+  🕐 20:57 - Meeting with KOSA
+📅 2025-07-11
+  🕐 10:00 - Meeting with Stan Lee
+📅 2025-07-12
+  🕐 18:26 - Meeting with cat-women
+📅 2025-07-13
+  🕐 14:00 - Meeting with John Doe
+📅 2025-07-14
+  🕐 14:00 - Meeting with John Doe
+  🕐 14:00 - Meeting with John Doe
+
+2025-07-07 17:41:21.137 | INFO     | main:chat_with_bot:91 - 🤖 Agent response: Here are your meetings for this week:
+
+📅 2025-07-10
+  🕐 20:57 - Meeting with KOSA
+📅 2025-07-11
+  🕐 10:00 - Meeting with Stan Lee
+📅 2025-07-12
+  🕐 18:26 - Meeting with cat-women
+📅 2025-07-13
+  🕐 14:00 - Meeting with John Doe
+📅 2025-07-14
+  🕐 14:00 - Meeting with John Doe
+  🕐 14:00 - Meeting with John Doe
+
