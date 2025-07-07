@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+
+# Secrets
+service_account.json
+*.env
+*.key
+*.pem
+
+# IDE
+.vscode/
+.idea/

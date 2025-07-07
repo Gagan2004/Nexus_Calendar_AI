@@ -1,0 +1,30 @@
+# --- Backend ---
+fastapi
+uvicorn
+langchain
+openai              # or groq / google-generativeai depending on LLM
+python-dotenv       # for managing API keys securely
+pydantic
+
+# --- Frontend ---
+streamlit
+pandas
+requests
+
+# --- Time Parsing / Optional Utilities ---
+dateparser          # for natural language date/time parsing (optional)
+
+# --- Google Calendar (for Phase 2) ---
+google-api-python-client
+google-auth
+google-auth-oauthlib
+
+
+langchain==0.3.26
+langchain-groq
+google-auth-httplib2
+
+
+# --- Dev Tools ---
+httpx
+

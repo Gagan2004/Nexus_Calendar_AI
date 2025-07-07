@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: calendar-bot-backend
+    runtime: python
+    buildCommand: pip install -r requirements.txt && python -m uvicorn main:app --host 0.0.0.0 --port 8000
+    startCommand: uvicorn main:app --host 0.0.0.0 --port 8000
+    envVars:
+      - key: GROQ_API_KEY
+        fromEnvVar: GROQ_API_KEY
+      - key: GOOGLE_CREDENTIALS
+        fromFile: ./backend/service_account.json
