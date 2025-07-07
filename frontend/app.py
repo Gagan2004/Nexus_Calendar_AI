@@ -12,9 +12,9 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-
+# os.environ.get("API_BASE_URL")
 # Configuration
-API_BASE_URL = os.environ.get("API_BASE_URL")
+API_BASE_URL = "https://nexus-calendar-agent.onrender.com/"
 CHAT_ENDPOINT = f"{API_BASE_URL}/chat"
 RESET_ENDPOINT = f"{API_BASE_URL}/reset-conversation"
 HEALTH_ENDPOINT = f"{API_BASE_URL}/health"
