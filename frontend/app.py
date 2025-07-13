@@ -12,9 +12,9 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-# os.environ.get("API_BASE_URL")
+
 # Configuration
-API_BASE_URL = "https://nexus-calendar-agent.onrender.com/"
+API_BASE_URL = os.environ.get("API_BASE_URL")
 CHAT_ENDPOINT = f"{API_BASE_URL}/chat"
 RESET_ENDPOINT = f"{API_BASE_URL}/reset-conversation"
 HEALTH_ENDPOINT = f"{API_BASE_URL}/health"
@@ -118,15 +118,49 @@ st.markdown("""
     }
     
     /* Input area with glass effect */
-    .input-area {
-        background: rgba(15, 23, 42, 0.7);
-        padding: 1.25rem;
-        border-radius: 0 0 16px 16px;
-        border-top: 1px solid rgba(255, 255, 255, 0.05);
-        backdrop-filter: blur(8px);
-        -webkit-backdrop-filter: blur(8px);
-    }
-    
+   /* Input Area Container */
+.input-area {
+    background: rgba(15, 23, 42, 0.7);
+    padding: 1.5rem;
+    border-radius: 0 0 16px 16px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 -8px 32px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Text Input Container */
+.input-area .stTextInput > div > div {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* Input Field */
+.input-area .stTextInput input {
+    background: rgba(30, 41, 59, 0.9) !important;
+    color: #f8fafc !important;
+    border: 1px solid rgba(255, 255, 255, 0.12) !important;
+    border-radius: 14px !important;
+    padding: 1.1rem 1.5rem !important;
+    font-size: 1.05rem !important;
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.15) !important;
+    transition: all 0.3s ease !important;
+    height: auto !important;
+    min-height: 56px !important;
+}
+
+/* Input Focus State */
+.input-area .stTextInput input:focus {
+    border-color: #818cf8 !important;
+    box-shadow: 
+        inset 0 1px 4px rgba(0, 0, 0, 0.15),
+        0 0 0 3px rgba(129, 140, 248, 0.2) !important;
+    outline: none !important;
+    transform: translateY(-1px);
+}
+
     /* Premium button styling */
     .stButton>button {
         border-radius: 12px !important;
@@ -230,6 +264,7 @@ st.markdown("""
         border: 1px solid rgba(255, 255, 255, 0.1) !important;
         border-radius: 12px !important;
         padding: 0.75rem 1rem !important;
+        font-size:1.2rem;
     }
     
     .stTextInput>div>div>input:focus {
@@ -458,6 +493,7 @@ def display_chat_history():
             overflow-y: auto;
             padding: 1.5rem;
             scroll-behavior: smooth;
+             
         }
         
         .message {
@@ -596,8 +632,30 @@ with col1:
     display_chat_history()
     
     # Chat input form with glass effect
+    st.markdown("""
+<style>
+    /* Target the specific form container */
+    div[data-testid="stForm"] {
+        margin-top: -200px !important;
+        position: relative !important;
+        z-index: 1 !important;
+    }
+
+     div[data-testid="chat_input"]  {
+        background: green !important;
+        border-color: #4299e1 !important;
+                padding:100px;
+    }
+    
+    /* Ensure content below isn't hidden */
+  s
+</style>
+""", unsafe_allow_html=True)
     with st.form(key="chat_form", clear_on_submit=True):
         st.markdown('<div class="input-area">', unsafe_allow_html=True)
+        
+        
+
         
         user_input = st.text_input(
             "Type your message...",
